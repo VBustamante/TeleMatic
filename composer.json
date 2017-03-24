@@ -1,1 +1,7 @@
-{}
+{
+    "name": "vbustamante/TeleMatic",
+    "description": "A simple Telegram bot framework",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
