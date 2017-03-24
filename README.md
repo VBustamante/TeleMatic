@@ -1,24 +1,13 @@
-# Caronas Bot
+# TeleMatic
 
-Bot para gerenciar caronas usado no [Telegram].
+A simple [Telegram] bot framework.
 
-Funcionalidades:
-  - Adicionar/Remover caronas
-  - Exibir lista com as caronas
 
 ### Version
 1.0
 
-### Tech
 
-Todo o código foi escrito em Php.
-
-### Desenvolvimento
-
-Quer contribuir? Ótimo!
-Adicione uma issue ou faça um pull request.
-
-### Devs
+### Foundation Provided By
 
  - [henriquemaio]
  - [leogoncalves]
