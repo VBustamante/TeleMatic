@@ -1,5 +1,5 @@
 {
-    "name": "vbustamante/TeleMatic",
+    "name": "vbustamante/telematic",
     "description": "A simple Telegram bot framework",
 	"license": "MIT",
     "require": {
