@@ -1,6 +1,7 @@
 {
     "name": "vbustamante/TeleMatic",
     "description": "A simple Telegram bot framework",
+	"license": "MIT",
     "require": {
         "guzzlehttp/guzzle": "~6.0"
     }
