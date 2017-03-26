@@ -59,7 +59,7 @@ class TeleMatic
 			$this->httpClient->request('GET', 'sendMessage', [
 				'query' => [
 					'chat_id'	=> $chatId,
-					'text' 		=> urlencode($message),
+					'text' 		=> $message,
 					'parse_mode'=> 'HTML'
 				]
 			]);

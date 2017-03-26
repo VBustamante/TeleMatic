@@ -2,8 +2,8 @@
 	require __DIR__."/vendor/autoload.php";
     require_once "src/TeleMatic.php";
 	use TeleMatic\TeleMatic;
-	$token 	= "";
-	$tele 	= new TeleMatic("botName", $token, false);
+	$token 	= "141695972:AAGy7QJbShMFUK-xRJmKHKE0PdHvZ1MymPQ";
+	$tele 	= new TeleMatic("botName", $token, true);
 	$cmd 	= $tele->command;
 	$args 	= $tele->args;
 	
