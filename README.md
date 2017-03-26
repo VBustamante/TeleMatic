@@ -1,6 +1,6 @@
 # TeleMatic
 
-A simple [Telegram] bot framework.
+A simple [Telegram] bot library.
 
 
 ### Version

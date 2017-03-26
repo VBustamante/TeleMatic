@@ -1,0 +1,50 @@
+[
+	{
+	  "update_id": 1,
+	  "message": {
+		"message_id": 1,
+		"from": {
+		  "id": 11,
+		  "first_name": "Name",
+		  "last_name": "Surname",
+		  "username": "mrnameynames"
+		},
+		"chat": {
+		  "id": 11,
+		  "first_name": "Name",
+		  "last_name": "Surname",
+		  "username": "mrnameynames",
+		  "type": "private"
+		},
+		"date": 1490449662,
+		"text": "MY MAN"
+	  }
+	},
+	{
+	  "update_id": 2,
+	  "message": {
+		"message_id": 2,
+		"from": {
+		  "id": 11,
+		  "first_name": "Name",
+		  "last_name": "Surname",
+		  "username": "mrnameynames"
+		},
+		"chat": {
+		  "id": 10,
+		  "title": "Group",
+		  "type": "group",
+		  "all_members_are_administrators": true
+		},
+		"date": 1490449674,
+		"text": "/myman",
+		"entities": [
+		  {
+			"type": "bot_command",
+			"offset": 0,
+			"length": 6
+		  }
+		]
+	  }
+	}
+]
