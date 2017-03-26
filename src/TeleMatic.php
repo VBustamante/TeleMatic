@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../vendor/autoload.php';
+namespace TeleMatic;
 use GuzzleHttp\Client;
 require_once "Model.php";
 
@@ -53,7 +53,7 @@ class TeleMatic
 	
 	// If no chatId specified, response is sent to calling chat
 	public function sendMessage ($message, $chatId = NULL) {
-		if(!$chatId) $chatId = $this->message->sender->id;
+		if(!$chatId) $chatId = $this->message->chat->id;
 		if($this->productionMode){
 			
 			$this->httpClient->request('GET', 'sendMessage', [

@@ -1,5 +1,5 @@
 <?php
-
+namespace TeleMatic;
 class ReadOnly{
 	public function __get($name) {
         if (isset($this->$name)) {
